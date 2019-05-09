@@ -1,4 +1,4 @@
-baseURL = "brcarmichael.com"
+baseURL = "/"
 languageCode = "en"
 title = "Bootless Inquisitions"
 theme = "hugo-nuo"
