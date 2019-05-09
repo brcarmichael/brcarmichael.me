@@ -1,0 +1,111 @@
+.sidebar {
+  background-image: linear-gradient( rgba(12,9,13,1), rgba(12,9,13,0.8), ),url(/img/background.jpg);
+  background-size: cover;
+  background-position: 50% 0;
+  color: rgb(255, 255, 255);
+  color: rgba(255, 255, 255, 0.5);
+  padding: 2rem 0.5rem;
+  text-align: center;
+  a {
+    color: $gray-1;
+    border: none;
+    &:hover {
+      color: $link-color;
+    }
+    &:focus {
+      color: $link-color;
+    }
+  }
+  .sidebar-about {
+    text-align: center;
+    margin-top: 40%;
+  }
+  .author-image {
+    display: block;
+    margin-top: 4px;
+  }
+}
+
+.sidebar-nav {
+  text-align: center;
+  list-style: none;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  padding-left: 0;
+}
+
+.sidebar-nav-item {
+  display: block;
+  line-height: 1.75;
+  .active {
+    font-weight: bold;
+  }
+}
+
+.pretitle {
+  font-family: $site-title-embellishment-font;
+  font-size: 2rem;
+  display: inline-block;
+  padding-right: 0.1em;
+  color: $gray-7;
+}
+
+.site__title {
+  font-family: $site-title-font;
+  text-transform: uppercase; 
+  font-size: $site__title-font-size;
+  margin-bottom: 0.5rem;
+  a:hover {
+    border: none;
+  }
+}
+
+.posttitle {
+  font-family: $site-title-font;
+  color: $gray-4;
+}
+
+.site__description {
+  font-size: 1.285rem;
+  font-weight: 300;
+}
+
+.social {
+  text-align: center;
+  a {
+    padding: 0 4px;
+    @include link-no-decoration();
+  }
+}
+
+.img--circle {
+	border-radius: 50%;
+}
+
+.img--headshot {
+	height: 115px;
+	width: 115px;
+}
+
+.img--caption {
+	font-style: italic;
+}
+
+%small-center-text {
+  font-size: $font-scale-dot7;
+  line-height: 1.1rem;
+  text-align: center;
+}
+
+.copyright {
+  position: absolute;
+  bottom: 0.5em;
+  left: 0;
+  right: 0;
+  padding-top: 1rem;
+	@extend %small-center-text;
+}
+.builtwith {
+  padding-top: .2rem;
+  @extend %small-center-text;
+}

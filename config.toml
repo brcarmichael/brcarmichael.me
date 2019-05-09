@@ -16,10 +16,10 @@ theme = "hyde-hyde"
 
 ## Site Settings
 [params]
-    author = "Author"
-    title = "Title"
+    author = "Ben Carmichael"
+    title = "B.R. Carmichael"
     # description = "..."
-    authorimage = "/img/hugo.png"
+    #authorimage = "/img/hugo.png"
     dateformat = "Jan 2, 2006"
 
     # sidebar, copyright & license
@@ -42,16 +42,16 @@ theme = "hyde-hyde"
     #toc = none, "hugo", or "tocbot"
 
 ## Social Accounts
-[params.social]
-    github = "<username>"
-    instagram = "<username>"
-    xing = "<username>"
-    linkedin = "<username>"
-    twitter = "<username>"
-    facebook = "<username>"
-    stackoverflow = "<username>"
-    telegram = "<username>"
-    email = "your-email@example.com"
+#[params.social]
+    #github = "<username>"
+    #instagram = "<username>"
+    #xing = "<username>"
+    #linkedin = "<username>"
+    #twitter = "<username>"
+   # facebook = "<username>"
+    #stackoverflow = "<username>"
+   # telegram = "<username>"
+   # email = "your-email@example.com"
     # gravatar = "your-email@example.com"
 
 ## Main Menu
