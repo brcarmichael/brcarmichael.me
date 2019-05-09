@@ -58,6 +58,15 @@
     display: none;
   }
   input#menuToggle + label {
+    .labelpretitle {
+      font-family: $site-title-embellishment-font;
+      font-size: 1rem;
+      color: $gray-7;
+    }
+    .labelposttitle {
+      font-family: $site-title-font;
+      color: $gray-4;
+    }
     font-weight: bold;
     font-family: $site-title-font;
   }
