@@ -1,7 +1,7 @@
 baseURL = "/"
 languageCode = "en"
 title = "Bootless Inquisitions"
-theme = "hugo-nuo"
+theme = "hyde-hyde"
 enableRobotsTXT = true
 PygmentsCodeFences = true
 canonifyurls = true
