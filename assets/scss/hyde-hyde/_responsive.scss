@@ -59,6 +59,7 @@
   }
   input#menuToggle + label {
     font-weight: bold;
+    font-family: $site-title-font;
   }
 
   input#menuToggle:checked + label {
