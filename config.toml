@@ -23,10 +23,10 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
   url = "/"
 
 [[menu.main]]
-  name = "Works"
+  name = "Posts"
   weight = 20
-  identifier = "works"
-  url = "https://github.com/laozhu"
+  identifier = "posts"
+  url = "/posts/"
 
 [[menu.main]]
   name = "Tags"
