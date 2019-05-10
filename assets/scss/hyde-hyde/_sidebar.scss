@@ -1,6 +1,7 @@
 .sidebar {
   background-size: cover;
   background-position: 50% 0;
+  box-shadow: 3px 3px 5px #ccc;
   color: rgb(255, 255, 255);
   color: rgba(255, 255, 255, 0.5);
   padding: 2rem 0.5rem;
@@ -17,7 +18,7 @@
   }
   .sidebar-about {
     text-align: center;
-    margin-top: 40%;
+    margin-top: 2.5rem;
   }
   .author-image {
     display: block;
