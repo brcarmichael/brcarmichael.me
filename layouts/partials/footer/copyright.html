@@ -1,5 +1,6 @@
 {{ with .Site.Params.copyright }}
 <div class="copyright">
+  <div class="trigram"><img src="/img/trigram-brc.png"></img></div>
   &copy; {{ now.Format "2006"}} {{ . | safeHTML }}
   {{ with $.Site.Params.license }}
     <a href="{{$.Site.Params.licenseURL | safeHTML}}">{{ . | safeHTML }}</a>

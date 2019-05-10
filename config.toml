@@ -23,7 +23,7 @@ theme = "hyde-hyde"
     dateformat = "Jan 2, 2006"
 
     # sidebar, copyright & license
-    copyright = "Ben Carmichael"
+    copyright = "B.R. Carmichael"
     license = false
     licenseURL = false
     showBuiltWith = false
