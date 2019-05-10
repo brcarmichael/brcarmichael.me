@@ -167,8 +167,40 @@
   }
 }
 
-// Large device ~1024px
-// 1024px ~  64rem/16px ~ 60.2353rem/17px 56.8889rem/18px
-@media (min-width: 1024px) {
-  // styles
+// Largest device
+@media (min-width: 1500px) {
+  .sidebar {
+    margin: 0 auto;
+    width: 100%;
+    position: inherit;
+    padding: 1rem 1rem .25rem;
+    background-position: center center;
+
+    .sidebar-about {
+      margin-top: 5%;
+      .site__title {
+        font-size: 2.2rem;
+      }
+      .pretitle {
+        font-size: 2.5rem;
+      }
+      .posttitle {
+        font-size: 1.5rem;
+        line-height: 1.8;
+      }
+    }
+  }
+  .sidebar-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0 5rem;
+    li {
+      display: inline-block;
+      padding: 0 1em;
+    }
+  }
+  .content {
+    margin: 0 auto;
+  }
 }

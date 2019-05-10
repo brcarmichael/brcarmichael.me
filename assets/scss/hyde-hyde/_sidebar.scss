@@ -31,6 +31,9 @@
   margin-bottom: 2rem;
   margin-top: 2rem;
   padding-left: 0;
+  li {
+    padding: .25rem 0;
+  }
 }
 
 .sidebar-nav-item {
@@ -97,11 +100,9 @@
 }
 
 .copyright {
-  position: absolute;
-  bottom: 0.5em;
-  left: 0;
-  right: 0;
-  padding-top: 1rem;
+  color: $gray-4;
+  margin: 0 auto;
+  padding-top: 2em;
 	@extend %small-center-text;
 }
 .builtwith {
