@@ -7,12 +7,16 @@
 ul.posts {
 	list-style-type: square;
 	li {
-		margin-bottom: 0.5rem;
+		padding-bottom: 0.5em;
+    	border-bottom: 2px solid $gray-2;
+    	margin-bottom: 0.5em;
 	}
 }
 
 .post-list__item {
-	margin-bottom: 3em;
+	padding-bottom: 1em;
+    border-bottom: 2px solid $gray-2;
+    margin-bottom: 1em;
 }
 
 .list__title--small a {
