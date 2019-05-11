@@ -3,7 +3,7 @@ a.badge-category {
   color: #fff !important;
   background-color: $category-colour;
   &:hover, &:focus {
-    color: $category-colour !important;
+    color: $category-colour;
     background: transparent;
     background-color: transparent;
     text-decoration: none;
@@ -16,7 +16,7 @@ a.badge-tag {
   color: #fff !important;
   background-color: $tag-colour;
   &:hover, &:focus {
-    color: $tag-colour !important;
+    color: $tag-colour;
     background: transparent;
     background-color: transparent;
     text-decoration: none;
