@@ -84,6 +84,14 @@ blockquote {
 	@extend %quotebox;
 }
 
+em {
+	color:$em-color;
+}
+
+strong {
+	color: $strong-color;
+}
+
 kbd {
 	font-family: $root-font-family;
 	padding: 2px 7px;

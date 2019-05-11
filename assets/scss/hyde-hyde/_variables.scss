@@ -18,6 +18,17 @@ $cyan: #75b5aa;
 $blue: #268bd2;
 $brown: #8f5536;
 
+$color-sidebar: #c0392b;
+$color-main: #3498db;
+$color-main-backup: #2980b9;
+
+$category-colour: #1abc9c;
+$tag-colour: #9b59b6;
+
+$em-color: #e74c3c;
+$strong-color: #e67e22;
+
+
 //https://www.client9.com/css-system-font-stack-sans-serif-v3
 $root-font-family: "Lato", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Droid Sans", "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji","Segoe UI Emoji", "Segoe UI Symbol";
 
@@ -32,7 +43,7 @@ $root-font-weight: 400;
 $root-line-height: 1.667em;
 
 $body-color: black;
-$body-bg: $gray-2;
+$body-bg: $gray-1;
 
 $border-color: #e5e5e5;
 
@@ -55,8 +66,8 @@ $code-fence-font-size: .8rem;
 $code-line-height: 1.4;
 
 // links
-$link-color: $blue;
-$link-hover-color: $body-color;
+$link-color: $color-main;
+$link-hover-color: $color-main-backup;
 
 // section
 $section__title-font-size: 2.15rem;
