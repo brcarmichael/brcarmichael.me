@@ -4,18 +4,36 @@
 	font-size: $section__title-font-size;
 }
 
+ul.posts {
+	list-style-type: square;
+	li {
+		margin-bottom: 0.5rem;
+	}
+}
+
 .post-list__item {
 	margin-bottom: 3em;
+}
+
+.list__title--small a {
+	border-bottom: 2px solid;
 }
 
 .item__title--big {
 	display: block;
 	font-size: $item__title-big-font-size;
 	line-height: 1.25;
+	margin-bottom: 0.5rem;
+	a {
+	border-bottom: 3px solid;
+	}
 }
 
 .item__title--small {
 	font-size: 1rem;
+	a {
+		border-bottom: 3px solid;
+	}
 }
 
 .item__date {

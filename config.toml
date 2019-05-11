@@ -20,7 +20,7 @@ googleAnalytics = "UA-140014696-1"
     title = "B.R. Carmichael"
     # description = "..."
     #authorimage = "/img/hugo.png"
-    dateformat = "Jan 2, 2006"
+    dateformat = "Jan 2, 2006 ⬩ 3:04 pm"
 
     # sidebar, copyright & license
     copyright = "B.R. Carmichael"
