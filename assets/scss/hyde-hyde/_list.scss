@@ -6,6 +6,7 @@
 
 ul.posts {
 	list-style-type: square;
+	padding-inline-start: 1.2em;
 	li {
 		padding-bottom: 0.5em;
     	border-bottom: 2px solid $gray-2;
