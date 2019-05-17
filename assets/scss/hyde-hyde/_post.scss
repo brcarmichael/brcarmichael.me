@@ -1,7 +1,14 @@
+header h1 {
+  font-family: $post-title-font;
+  font-weight: $title-weight;
+}
+
 .post__meta {
   font-size: $meta-font-size;
   color: $meta-color;
   font-weight: $meta-font-weight;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 1rem;
 }
 
 .post__category {
