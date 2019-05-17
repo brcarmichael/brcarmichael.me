@@ -98,12 +98,6 @@
     text-align: left;
     top: 0;
     width: $sidebar-width;
-    .container {
-      position: absolute;
-      bottom: 1rem;
-      left: 0;
-      right: 0;
-    }
   }
   .sidebar-sticky {
     left: 1rem;
@@ -169,6 +163,14 @@
   }
   .portfolio-container {
     width: 68rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1500px) {
+  .sidebar .container {
+    position: absolute;
+    bottom: 1rem;
+    left: 0;
+    right: 0;
   }
 }
 
