@@ -2,7 +2,8 @@
 
 .section__title {
 	font-size: $section__title-font-size;
-	font-family: $post-title-font;
+	font-family: $site-title-font;
+	text-transform: uppercase;
 }
 
 ul.posts {
