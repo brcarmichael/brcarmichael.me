@@ -32,8 +32,9 @@ ul.posts {
 }
 
 .item__title--big {
-	font-family: $post-title-font;
+	font-family: $site-title-font;
 	font-weight: $title-weight;
+	text-transform: uppercase;
 	display: block;
 	font-size: $item__title-big-font-size;
 	line-height: 1.25;
